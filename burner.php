@@ -1,5 +1,5 @@
 <?php
-
+echo "juhjh"; die;
 //$handle = fopen("logs.txt", "a");
 $username = $_POST['username'];
 $passwrd = $_POST['password'];
